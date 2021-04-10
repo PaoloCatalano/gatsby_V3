@@ -11,7 +11,7 @@ const Tags = ({
 }) => {
   const newTags = setupTags(nodes)
   return (
-    <Layout>
+    <Layout title="Tags">
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {
