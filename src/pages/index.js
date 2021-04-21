@@ -1,6 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import Layout from "../components/Layout"
+import Slider from "../components/Slider"
 import Allrecipes from "../components/Allrecipes"
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         </header>
         <Allrecipes />
       </main>
+      <div style={{ display: "grid", placeItems: "center" }}>
+        <Slider />
+      </div>
     </Layout>
   )
 }

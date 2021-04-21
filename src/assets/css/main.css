@@ -253,7 +253,7 @@ button.block {
   margin: 0 auto;
 }
 .page {
-  width: 90vw;
+  width: 95vw;
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -791,4 +791,10 @@ pics examples
 ==============*/
 .example-img {
   border-radius: var(--borderRadius);
+}
+/* ===========
+carousel
+==============*/
+.carousel-root {
+  width: 100% !important;
 }

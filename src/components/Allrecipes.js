@@ -2,7 +2,6 @@ import React from "react"
 import Tagslist from "./Tagslist"
 import Recipeslist from "./Recipeslist"
 import { useStaticQuery, graphql } from "gatsby"
-
 const Allrecipes = () => {
   const {
     allContentfulRecipe: { nodes: recipes },
